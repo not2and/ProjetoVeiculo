@@ -13,7 +13,7 @@ public class TesteVeiculo {
         celtarebaixado.exibirVeiculo();
 
         //acelerando o veiculo
-        for (int i = 0; i < 120; i++)
+        for (int i = 0; i < 200; i++)
             celtarebaixado.acelerar();
 
         System.out.println("\n\t\t\t -- Meu Celta No Autodromo -- \n");
@@ -26,7 +26,7 @@ public class TesteVeiculo {
         celtarebaixado.exibirVeiculo();
 
         corsarebaixado.marca = "Chevrolet";
-        corsarebaixado.modelo = "Corsa";
+        corsarebaixado.modelo = "";
         corsarebaixado.cor = 'p';
         corsarebaixado.velocidade = 0;
         System.out.println("\n\t\t\t -- Meu Corsa -- \n");

@@ -15,9 +15,13 @@ public class Veiculo {
 
     public void acelerar() {
         velocidade++;
+        if (velocidade < 120) {
+        }
     }
-    
+
     public void desacelerar() {
         velocidade--;
+        if (velocidade > 0) {
+        }
     }
 }

@@ -1,5 +1,5 @@
-public class TesteVeiculo{
-    public static void main(String[] args){
+public class TesteVeiculo {
+    public static void main(String[] args) {
         //criacao de um objeto da classe Veiculo
         Veiculo celtarebaixado = new Veiculo();
         //atribuicao de valores aos atributos do objeto
@@ -12,16 +12,16 @@ public class TesteVeiculo{
         celtarebaixado.exibirVeiculo();
 
         //acelerando o veiculo
-        for(int i = 0; i < 120; i++)
+        for (int i = 0; i < 120; i++)
             celtarebaixado.acelerar();
 
         System.out.println("\n\t\t\t -- Meu Celta No Autodromo -- \n");
         celtarebaixado.exibirVeiculo();
 
-        for(int i = 0; i < 120; i++)
-        celtarebaixado.frear();
+        for (int i = 0; i < 120; i++)
+            celtarebaixado.desacelerar();
 
-    System.out.println("\n\t\t\t -- Meu Celta Parado -- \n");
-    celtarebaixado.exibirVeiculo();
+        System.out.println("\n\t\t\t -- Meu Celta Parado -- \n");
+        celtarebaixado.exibirVeiculo();
     }
 }

@@ -18,7 +18,7 @@ public class TesteVeiculo {
         System.out.println("\n\t\t\t -- Meu Celta No Autodromo -- \n");
         celtarebaixado.exibirVeiculo();
 
-        for (int i = 0; i < 120; i++)
+        for (int i = 120; i > 0; i--)
             celtarebaixado.desacelerar();
 
         System.out.println("\n\t\t\t -- Meu Celta Parado -- \n");
